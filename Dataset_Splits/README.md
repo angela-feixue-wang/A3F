@@ -1,6 +1,6 @@
 # Annotation label mappings
 
-Annotation labels are encoded as integers in the training, validation, and test CSV files for compatibility with PyTorch data-loading pipeline. The mappings between integer labels and their corresponding annotations are provided below.
+Annotation labels are encoded as integers in the training, validation, and test CSV files for compatibility with PyTorch data-loading pipeline. The mappings between integers and their corresponding labels are provided below.
 
 ### Anatomy (`gnd_ana`)
 
