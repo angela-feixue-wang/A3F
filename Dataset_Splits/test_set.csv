@@ -1,0 +1,11 @@
+frame,gnd_ana,gnd_mag,gnd_gain,gnd_centering,gnd_shadow
+image9001.jpg,0,1,0,0,0
+image9002.jpg,2,0,0,3,0
+image9003.jpg,1,0,0,0,0
+image9004.jpg,4,0,2,0,0
+image9005.jpg,8,0,0,0,0
+image9006.jpg,7,1,2,0,0
+image9007.jpg,3,0,0,0,1
+image9008.jpg,5,0,0,4,0
+image9009.jpg,8,0,0,0,0
+image9010.jpg,6,1,0,1,0

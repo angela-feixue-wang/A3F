@@ -1,0 +1,28 @@
+name: A3F
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - matplotlib=3.10.8=py312h06a4308_0
+  - pandas=2.3.3=py312h23c847b_1
+  - pip=26.0.1=pyhc872135_0
+  - python=3.12.12=hd63d673_2_cpython
+  - setuptools=82.0.0=pyh332efcf_0
+  - pip:
+      - decord==0.6.0
+      - gitpython==3.1.46
+      - grad-cam==1.5.5
+      - numpy==2.3.5
+      - opencv-python==4.10.0.84
+      - optuna==4.9.0
+      - pillow==12.0.0
+      - pyyaml==6.0.3
+      - scikit-learn==1.8.0
+      - scipy==1.17.1
+      - timm==1.0.28
+      - torch==2.7.1+cu128 
+      - torchvision==0.22.1+cu128
+      - tqdm==4.67.3
+      - ttach==0.0.3
+      - ultralytics-thop==2.0.19
+      - urllib3==2.6.3

@@ -1,0 +1,16 @@
+# Model checkpoints / weights 
+*.pth
+
+# Images and PDFs
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.png
+*.PNG
+*.svg
+*.pdf
+
+# Python cache 
+__pycache__/
+**/__pycache__/
