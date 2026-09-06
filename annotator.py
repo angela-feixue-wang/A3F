@@ -24,29 +24,27 @@ from PIL import Image, ImageTk
 #   5. Annotations are auto-saved in csv file as you go. 
 
 labels_ana = {
-    "a": "abdominal circumference plane",
-    "c": "cardiac",
-    "e": "cerebellum",
-    "h": "head circumference plane",
-    "f": "femur length plane",
-    "n": "nose or lip",
-    "w": "spine coronal",
-    "s": "spine sagittal",
-    "q": "other",
+    "a": "AC",
+    "c": "Cardiac",
+    "e": "Cerebellum",
+    "h": "HC",
+    "f": "Femur",
+    "n": "Lips and nose",
+    "w": "Spine (coronal)",
+    "s": "Spine (sagittal)",
+    "q": "Other",
 }
 
 labels_mag = {
     "a": "good_mag",
     "f": "increase_mag",
     "r": "reduce_mag",
-    "q": "other",
 }
 
 labels_gain = {
     "a": "good_gain",
     "f": "increase_gain",
     "r": "reduce_gain",
-    "q": "other",
 }
 
 labels_centering = {
@@ -55,13 +53,11 @@ labels_centering = {
     "s": "move_left",
     "e": "move_up",
     "c": "move_down",
-    "q": "other",
 }
 
 labels_shadow = {
     "s": "shadow",
     "d": "no_shadow",
-    "q": "other",
 }
 
 # Define annotation output filename below (the file will automatically store in the same directory as this .py file):
