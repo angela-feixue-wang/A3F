@@ -27,10 +27,26 @@ pip install ultralytics-thop
 pip install optuna
 ```
 
+Run any Python script from the terminal using:
+```bash
+python3 file_name.py
+```
+Replace `file_name.py` with the name of the script you wish to run. 
+
+## Computing environment
+
+The experiments in this research were run in the following software and hardware environment:
+- Operating system: Linux Ubuntu 24.04
+- Environment management: Miniconda
+- Python: 3.12.12
+- PyTorch: 2.7.1 + CUDA 12.8
+- torchvision: 0.22.1 + CUDA 12.8
+- GPU: NVIDIA RTX Pro 4500, compute capability 12.0 (`sm_120`)
+
 ## Usage
 
 ### Data
-The private clinical dataset **PULSE** is not allowed to release to the public, so it is not included here. Instead, we describe below the expected dataset organisation and file formats required by the data-loading pipeline used in this research.
+The private clinical dataset **PULSE** is not allowed to be released to the public, so it is not included here. Instead, we describe below the expected dataset organisation and file formats required by the data-loading pipeline used in this research.
 
 The training and validation images (raw images and their augmented variants if data augmentation is being used) should be stored together in a single directory, while the test images (raw images only) should be stored in a separate directory. 
 
