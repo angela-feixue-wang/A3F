@@ -66,7 +66,7 @@ The main Python scripts in this repository are listed below. Click a script name
 | Script | Description |
 |--------|-------------|
 | [`annotator.py`](./annotator.py) | The custom annotation tool used in the research. It was developed and tested on Linux Ubuntu 24.04. Running the tool on Windows may require minor code modifications to accommodate platform-specific GUI bindings. |
-| [`augmentation.py`](./augmentation.py) | Performs data augmentation for training and validation images. |
+| [`augmentation.ipynb`](./augmentation.ipynb) | Performs data augmentation for training and validation images. |
 | [`dataset.py`](./dataset.py) | Contains dataset classes used in the research. |
 | [`eval_visualiser.py`](./eval_visualiser.py) | A visualiser used to inspect test images with their predictions and ground truth labels. |
 | [`eval_withAH.py`](./eval_withAH.py) | Evaluates model performance on test set. Generates a `pred.csv` listing all test images with predicted results and ground truth labels, a `metrics.txt` containing computed evaluation metrics, and confusion matrices stored as SVG files. Used for models that have an anatomy head. |
@@ -82,7 +82,7 @@ The main Python scripts in this repository are listed below. Click a script name
 The scripts are generally run in the following order:
 
 1. Annotate the data: [`annotator.py`](./annotator.py)
-2. Data augmentation: [`augmentation.py`](./augmentation.py)
+2. Data augmentation: [`augmentation.ipynb`](./augmentation.ipynb)
 3. Train the model: [`train_withAH.py`](./train_withAH.py)
 4. Evaluate model: [`eval_withAH.py`](./eval_withAH.py)
 5. Inspect results: [`eval_visualiser.py`](./eval_visualiser.py)
