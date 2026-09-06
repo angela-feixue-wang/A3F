@@ -85,7 +85,7 @@ class SentenceGenerator:
             },
             "shadow": {
                 0: None, # suppress no_shadow outputs so it doesn't output shadow label when predicts no_shadow
-                1: "Shadow",
+                1: "shadow",
             }
         }
 
